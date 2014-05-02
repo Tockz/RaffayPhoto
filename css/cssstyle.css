@@ -1,6 +1,8 @@
 body {
 	background-color: black;
 	margin: 0% 0% 0% 0%;
+    font-family: Oxygen Mono, tahoma, verdana;
+    font-size: 15px;
 }
 
 .fkucunt {
@@ -10,8 +12,13 @@ body {
 	min-height: 100;
 	border: 0;
 }
+
 .navvy {
-    background-color: rgba(255, 255, 255, 0.3);
+    background:#333;
+    -webkit-box-shadow:inset 0 0 5px 5px #222;
+    -moz-box-shadow:inset 0 0 5px 5px #222;
+    box-shadow:inset 0 0 5px 5px #222;
+    margin: 0% 25% 0% 25%;
 }
 
 .navvy nav{
@@ -22,7 +29,7 @@ body {
 }
 
 .navvy nav ul {
-    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0;
 }
 
 .navvy nav li {
