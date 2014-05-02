@@ -1,0 +1,63 @@
+html.no-js #fallback-nav { display: block; }
+html.no-js .fade { display: none; }
+html.no-js #navicon { display: none; }
+html.js #fallback-nav { display: none; }
+
+#navicon {
+    float: right;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    z-index: 9; 
+    padding-right: 100px;
+}
+
+
+#navicon.open { color: white; }
+
+#navicon.open:hover { color: blue; }
+
+ul {
+    text-decoration: none;
+
+}
+li {
+    text-decoration: none;
+    display:block;
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.1; }
+
+
+
+#main-nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -100px;
+    background: #222;
+    max-width: 100px;
+    width: 100%;
+    z-index: 5;
+    text-align: left;
+    flex-direction: column; }
+
+#main-nav a {
+    flex: 1;
+    color: white;
+    border-top: 5px solid orange;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+#main-nav a:hover, #main-nav a.current { 
+    background: blue; 
+}

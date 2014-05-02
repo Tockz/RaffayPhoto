@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	margin: 0% 0% 0% 0%;
+}
+
+.fkucunt {
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+	min-height: 100;
+	border: 0;
+}
+.navvy {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navvy nav{
+	list-style-type: none;
+    text-decoration: none;
+    float: center;
+    text-align: center;
+}
+
+.navvy nav ul {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navvy nav li {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    line-height: 3.78em;
+    text-align: center;
+    float: center;
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navvy nav li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
