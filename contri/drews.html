@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="cssmenu.css" type="text/css">
+
+	<link rel="stylesheet" href="sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css" type="text/css">
+</head>
+
+	<body>
+
+ 		<script src="jquery.js"></script>
+    	<script src="sidr-package-1.2.1/jquery.sidr.min.js"></script>
+		<div id="mobile-header">
+    <a id="responsive-menu-button" href="#sidr-main">
+    	<div class="fix">
+    		<div class="arrow">
+    			<img src="arrow.jpg" width="25" height="25">
+    		</div>
+    		<script src="fucku.js"></script>
+		</div>
+	</a>
+</div>
+ 
+<div id="navigation">
+    <nav class="nav">
+        <ul>
+        	<div class="ez">
+            <li><a href="#download">Cheetahs and shit</a></li>
+            <li><a href="#getstarted">Hyena</a></li>
+            <li><a href="#usage">Some sort of duck looking fuck</a></li>
+            <li><a href="#documentation">Pornz</a></li>
+            <li><a href="#documentation">A new list item</a></li>
+        </div>
+
+        </ul>
+    </nav>
+</div>
+ 
+<script>
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+</script>
+
+</body>
+</html>

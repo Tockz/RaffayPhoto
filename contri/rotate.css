@@ -1,0 +1,14 @@
+.rotate {
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+div .ez{
+	display:none;
+}
+
+div .fix{
+	position:absolute;
+}
