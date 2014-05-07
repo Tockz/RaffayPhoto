@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cross-domain-policy>
+<allow-access-from domain="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;" />
+<allow-access-from domain="&lt;cross-domain-policy&gt;" />
+<allow-access-from domain="&lt;allow-access-from domain=&quot;www.raffayphoto.com&quot; /&gt;" />
+<allow-access-from domain="&lt;allow-access-from domain=&quot;raffayphoto.com&quot; /&gt;" />
+<allow-access-from domain="&lt;allow-access-from domain=&quot;www.stephenraffay.com&quot; /&gt;" />
+<allow-access-from domain="&lt;allow-access-from domain=&quot;stephenraffay.com&quot; /&gt;" />
+<allow-access-from domain="&lt;/cross-domain-policy&gt;" />
+</cross-domain-policy>

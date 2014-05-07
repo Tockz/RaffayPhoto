@@ -11,4 +11,6 @@ div .ez{
 
 div .fix{
 	position:absolute;
+	z-index: 2;
+	top: 2em;
 }
