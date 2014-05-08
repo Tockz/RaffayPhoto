@@ -1,8 +1,11 @@
 body {
 	background-image: url(./background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%
-	margin: 0% 0% 0% 0%;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:relative;
     font-family: Oxygen Mono, tahoma, verdana;
     font-size: 15px;
 }
@@ -30,6 +33,45 @@ body {
 
 }
 
+.bio {
+    background: rgba(90, 48, 8, 0.7);
+    width:50%;
+    height:auto;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 0;
+    border-bottom: solid 3px rgba(117, 73, 23, 0.5);
+    border-right: solid 3px rgba(117, 73, 23, 0.5);
+    border-left: solid 3px rgba(117, 73, 23, 0.5);
+    border-top: solid 3px rgba(117, 73, 23, 0.5);
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    top:5px;
+
+}
+
+.bio img{
+    float:left;
+    width:35%;
+    height:auto;
+    position:relative;
+    margin:12% 0% 0% 2%;
+    
+}
+
+.ppp {
+    font-size: 1.1vw;
+    text-indent:13%;
+    width: 60%;
+    height:auto;
+    margin-left:38%%;
+    position:relative;
+    text-align:left;
+}
+
+
+
 
 .fotorama {
     position: relative;
@@ -37,5 +79,6 @@ body {
     height: 100%;
     top: 0px;
 }
+
 
 
